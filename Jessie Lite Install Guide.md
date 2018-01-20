@@ -2,37 +2,19 @@
 
 ## First Update your Linux:
 
-`sudo apt-get update`
+`sudo apt update`
 
-`sudo apt-get upgrade`
+`sudo apt upgrade`
 
-## Install Xserver, LXDE-gui and lightdm:
+## Install Xserver, LXDE-gui, lightdm, git and the missing packages, autohiding the mouse cursor with unclutter:
 
-`sudo apt-get install xinit xserver-xorg`
-
-`sudo apt-get install lxde-core`
-
-`sudo apt-get install lightdm`
+`sudo apt install xinit xserver-xorg lxde-core lightdm git libxss1 libnss3 unclutter`
 
 ## Let the LXDE-gui autostart:
 
 `sudo raspi-config`
 
 go to "Boot Options" and change boot to "Desktop" or "Desktop Autologin"
-
-## Install git to get the MagicMirror code:
-
-`sudo apt-get install git`
-
-## Install the missing packages:
-
-`sudo apt-get install libxss1`
-
-`sudo apt-get install libnss3`
-
-## Autohiding the Mouse Cursor with unclutter:
-
-`sudo apt-get install unclutter`
 
 ## Get and install MagicMirror with the Automatic Installer:
 
